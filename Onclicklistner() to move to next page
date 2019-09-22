@@ -4,7 +4,7 @@ Button createid = findViewById(R.id.buttonid);
     createid.setOnClickListener(new View.OnClickListener() {
 
         @Override
-        protected void onClick(View view) {
+        public void onClick(View view) {
        Intent i = new Intent(Fromactivity.this,Toactivity.class);//fromactivity-from which javapack  to Toactivity-to which java package
             startActivity(i);
         }
